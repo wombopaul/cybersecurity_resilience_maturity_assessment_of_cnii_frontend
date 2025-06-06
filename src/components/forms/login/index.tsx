@@ -31,8 +31,7 @@ const LoginForm = ({ setIsLogin }: LoginFormProps) => {
 
   return (
     <>
-      <div className="flex flex-col md:block justify-center items-center min-h-screen md:min-h-0">
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-md min-h-screen overflow-hidden pt-16 md:pt-8">
         <h1 className="font-bold text-3xl">Login</h1>
         <h4 className="mb-10">
           Do not have an account?{" "}
@@ -74,7 +73,6 @@ const LoginForm = ({ setIsLogin }: LoginFormProps) => {
             </motion.button>
           </div>
         </form>
-        </div>
       </div>
     </>
   );

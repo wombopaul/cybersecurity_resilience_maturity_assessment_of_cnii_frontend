@@ -97,7 +97,7 @@ const RegisterForm = ({ setIsLogin }:RegisterFormProps) => {
         />
           
           <div className="flex flex-col md:flex-row w-full gap-4 justify-between">
-          <div className="w-full md:w-[40%]">
+          <div className="w-full md:w-[48%]">
             <PrimaryTextInputComponent
               type="password"
               control={control}
@@ -107,7 +107,7 @@ const RegisterForm = ({ setIsLogin }:RegisterFormProps) => {
               error={errors.password?.message}
             />
             </div>
-            <div className="w-full md:w-[40%]">
+            <div className="w-full md:w-[48%]">
             <PrimaryTextInputComponent
               type="password"
               control={control}
