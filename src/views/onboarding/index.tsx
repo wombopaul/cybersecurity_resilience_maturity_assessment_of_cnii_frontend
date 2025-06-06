@@ -8,7 +8,7 @@ import RegisterForm from "@/components/forms/register";
 const Onboarding = () => {
   const [isLogin, setIsLogin] = useState<boolean>(false);
   
-    return <div className="flex flex-col md:flex-row h-screen w-full p-5">
+    return <div className="flex flex-col md:flex-row w-full p-5 min-h-screen overflow-hidden">
     {/* Left Side */}
     <div className="hidden md:flex md:w-1/2 w-full h-full md:h-full text-white flex-col items-center justify-center p-8 relative">
       <motion.div
